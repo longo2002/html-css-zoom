@@ -32,7 +32,8 @@ main{
 
 footer{
     height: 5vh;
-    background-color: azure;
+    background-color: rgba(83, 83, 83, 0.5);
+    display: flex;
 }
 
 .users_profiles{
@@ -67,3 +68,22 @@ footer{
     display: flex;
     gap: 5px;
 }
+
+.input_buttons_left{
+    height: 100%;
+    max-width: 250px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.action_button{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
